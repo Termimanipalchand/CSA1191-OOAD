@@ -92,21 +92,21 @@ import java.util.*;
 
 
 /**
- * Class Customer
+ * Class order
  */
-public class Customer {
+public class order {
 
   //
   // Fields
   //
 
-  private void User_id;
-  private void name;
+  private void order_id;
+  private void order_date;
   
   //
   // Constructors
   //
-  public Customer () { };
+  public order () { };
   
   //
   // Methods
@@ -118,35 +118,35 @@ public class Customer {
   //
 
   /**
-   * Set the value of User_id
-   * @param newVar the new value of User_id
+   * Set the value of order_id
+   * @param newVar the new value of order_id
    */
-  private void setUser_id (void newVar) {
-    User_id = newVar;
+  private void setOrder_id (void newVar) {
+    order_id = newVar;
   }
 
   /**
-   * Get the value of User_id
-   * @return the value of User_id
+   * Get the value of order_id
+   * @return the value of order_id
    */
-  private void getUser_id () {
-    return User_id;
+  private void getOrder_id () {
+    return order_id;
   }
 
   /**
-   * Set the value of name
-   * @param newVar the new value of name
+   * Set the value of order_date
+   * @param newVar the new value of order_date
    */
-  private void setName (void newVar) {
-    name = newVar;
+  private void setOrder_date (void newVar) {
+    order_date = newVar;
   }
 
   /**
-   * Get the value of name
-   * @return the value of name
+   * Get the value of order_date
+   * @return the value of order_date
    */
-  private void getName () {
-    return name;
+  private void getOrder_date () {
+    return order_date;
   }
 
   //
@@ -155,21 +155,7 @@ public class Customer {
 
   /**
    */
-  public void Login()
-  {
-  }
-
-
-  /**
-   */
-  public void Regestration()
-  {
-  }
-
-
-  /**
-   */
-  public void Payment()
+  public void order_details()
   {
   }
 

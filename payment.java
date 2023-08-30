@@ -92,21 +92,21 @@ import java.util.*;
 
 
 /**
- * Class Customer
+ * Class payment
  */
-public class Customer {
+public class payment {
 
   //
   // Fields
   //
 
-  private void User_id;
-  private void name;
+  private void ammount;
+  private void date;
   
   //
   // Constructors
   //
-  public Customer () { };
+  public payment () { };
   
   //
   // Methods
@@ -118,35 +118,35 @@ public class Customer {
   //
 
   /**
-   * Set the value of User_id
-   * @param newVar the new value of User_id
+   * Set the value of ammount
+   * @param newVar the new value of ammount
    */
-  private void setUser_id (void newVar) {
-    User_id = newVar;
+  private void setAmmount (void newVar) {
+    ammount = newVar;
   }
 
   /**
-   * Get the value of User_id
-   * @return the value of User_id
+   * Get the value of ammount
+   * @return the value of ammount
    */
-  private void getUser_id () {
-    return User_id;
+  private void getAmmount () {
+    return ammount;
   }
 
   /**
-   * Set the value of name
-   * @param newVar the new value of name
+   * Set the value of date
+   * @param newVar the new value of date
    */
-  private void setName (void newVar) {
-    name = newVar;
+  private void setDate (void newVar) {
+    date = newVar;
   }
 
   /**
-   * Get the value of name
-   * @return the value of name
+   * Get the value of date
+   * @return the value of date
    */
-  private void getName () {
-    return name;
+  private void getDate () {
+    return date;
   }
 
   //
@@ -155,21 +155,7 @@ public class Customer {
 
   /**
    */
-  public void Login()
-  {
-  }
-
-
-  /**
-   */
-  public void Regestration()
-  {
-  }
-
-
-  /**
-   */
-  public void Payment()
+  public void slip_generate()
   {
   }
 

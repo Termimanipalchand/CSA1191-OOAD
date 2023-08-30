@@ -92,21 +92,21 @@ import java.util.*;
 
 
 /**
- * Class Customer
+ * Class cart
  */
-public class Customer {
+public class cart {
 
   //
   // Fields
   //
 
-  private void User_id;
-  private void name;
+  private void cart_id;
+  private void cart_date;
   
   //
   // Constructors
   //
-  public Customer () { };
+  public cart () { };
   
   //
   // Methods
@@ -118,35 +118,35 @@ public class Customer {
   //
 
   /**
-   * Set the value of User_id
-   * @param newVar the new value of User_id
+   * Set the value of cart_id
+   * @param newVar the new value of cart_id
    */
-  private void setUser_id (void newVar) {
-    User_id = newVar;
+  private void setCart_id (void newVar) {
+    cart_id = newVar;
   }
 
   /**
-   * Get the value of User_id
-   * @return the value of User_id
+   * Get the value of cart_id
+   * @return the value of cart_id
    */
-  private void getUser_id () {
-    return User_id;
+  private void getCart_id () {
+    return cart_id;
   }
 
   /**
-   * Set the value of name
-   * @param newVar the new value of name
+   * Set the value of cart_date
+   * @param newVar the new value of cart_date
    */
-  private void setName (void newVar) {
-    name = newVar;
+  private void setCart_date (void newVar) {
+    cart_date = newVar;
   }
 
   /**
-   * Get the value of name
-   * @return the value of name
+   * Get the value of cart_date
+   * @return the value of cart_date
    */
-  private void getName () {
-    return name;
+  private void getCart_date () {
+    return cart_date;
   }
 
   //
@@ -155,21 +155,14 @@ public class Customer {
 
   /**
    */
-  public void Login()
+  public void update()
   {
   }
 
 
   /**
    */
-  public void Regestration()
-  {
-  }
-
-
-  /**
-   */
-  public void Payment()
+  public void delete()
   {
   }
 

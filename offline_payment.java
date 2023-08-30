@@ -92,21 +92,20 @@ import java.util.*;
 
 
 /**
- * Class Customer
+ * Class offline_payment
  */
-public class Customer {
+public class offline_payment {
 
   //
   // Fields
   //
 
-  private void User_id;
-  private void name;
+  private void user_Address;
   
   //
   // Constructors
   //
-  public Customer () { };
+  public offline_payment () { };
   
   //
   // Methods
@@ -118,35 +117,19 @@ public class Customer {
   //
 
   /**
-   * Set the value of User_id
-   * @param newVar the new value of User_id
+   * Set the value of user_Address
+   * @param newVar the new value of user_Address
    */
-  private void setUser_id (void newVar) {
-    User_id = newVar;
+  private void setUser_Address (void newVar) {
+    user_Address = newVar;
   }
 
   /**
-   * Get the value of User_id
-   * @return the value of User_id
+   * Get the value of user_Address
+   * @return the value of user_Address
    */
-  private void getUser_id () {
-    return User_id;
-  }
-
-  /**
-   * Set the value of name
-   * @param newVar the new value of name
-   */
-  private void setName (void newVar) {
-    name = newVar;
-  }
-
-  /**
-   * Get the value of name
-   * @return the value of name
-   */
-  private void getName () {
-    return name;
+  private void getUser_Address () {
+    return user_Address;
   }
 
   //
@@ -155,21 +138,7 @@ public class Customer {
 
   /**
    */
-  public void Login()
-  {
-  }
-
-
-  /**
-   */
-  public void Regestration()
-  {
-  }
-
-
-  /**
-   */
-  public void Payment()
+  public void Slip_Generate()
   {
   }
 

@@ -92,21 +92,21 @@ import java.util.*;
 
 
 /**
- * Class Customer
+ * Class online_payment
  */
-public class Customer {
+public class online_payment {
 
   //
   // Fields
   //
 
-  private void User_id;
-  private void name;
+  private void card_no;
+  private void account_no;
   
   //
   // Constructors
   //
-  public Customer () { };
+  public online_payment () { };
   
   //
   // Methods
@@ -118,35 +118,35 @@ public class Customer {
   //
 
   /**
-   * Set the value of User_id
-   * @param newVar the new value of User_id
+   * Set the value of card_no
+   * @param newVar the new value of card_no
    */
-  private void setUser_id (void newVar) {
-    User_id = newVar;
+  private void setCard_no (void newVar) {
+    card_no = newVar;
   }
 
   /**
-   * Get the value of User_id
-   * @return the value of User_id
+   * Get the value of card_no
+   * @return the value of card_no
    */
-  private void getUser_id () {
-    return User_id;
+  private void getCard_no () {
+    return card_no;
   }
 
   /**
-   * Set the value of name
-   * @param newVar the new value of name
+   * Set the value of account_no
+   * @param newVar the new value of account_no
    */
-  private void setName (void newVar) {
-    name = newVar;
+  private void setAccount_no (void newVar) {
+    account_no = newVar;
   }
 
   /**
-   * Get the value of name
-   * @return the value of name
+   * Get the value of account_no
+   * @return the value of account_no
    */
-  private void getName () {
-    return name;
+  private void getAccount_no () {
+    return account_no;
   }
 
   //
@@ -155,21 +155,14 @@ public class Customer {
 
   /**
    */
-  public void Login()
+  public void Bank_Authentication()
   {
   }
 
 
   /**
    */
-  public void Regestration()
-  {
-  }
-
-
-  /**
-   */
-  public void Payment()
+  public void Slip_Generation()
   {
   }
 

@@ -92,21 +92,21 @@ import java.util.*;
 
 
 /**
- * Class Customer
+ * Class product
  */
-public class Customer {
+public class product {
 
   //
   // Fields
   //
 
-  private void User_id;
   private void name;
+  private void price;
   
   //
   // Constructors
   //
-  public Customer () { };
+  public product () { };
   
   //
   // Methods
@@ -116,22 +116,6 @@ public class Customer {
   //
   // Accessor methods
   //
-
-  /**
-   * Set the value of User_id
-   * @param newVar the new value of User_id
-   */
-  private void setUser_id (void newVar) {
-    User_id = newVar;
-  }
-
-  /**
-   * Get the value of User_id
-   * @return the value of User_id
-   */
-  private void getUser_id () {
-    return User_id;
-  }
 
   /**
    * Set the value of name
@@ -149,27 +133,36 @@ public class Customer {
     return name;
   }
 
+  /**
+   * Set the value of price
+   * @param newVar the new value of price
+   */
+  private void setPrice (void newVar) {
+    price = newVar;
+  }
+
+  /**
+   * Get the value of price
+   * @return the value of price
+   */
+  private void getPrice () {
+    return price;
+  }
+
   //
   // Other methods
   //
 
   /**
    */
-  public void Login()
+  public void get_product()
   {
   }
 
 
   /**
    */
-  public void Regestration()
-  {
-  }
-
-
-  /**
-   */
-  public void Payment()
+  public void Available()
   {
   }
 
